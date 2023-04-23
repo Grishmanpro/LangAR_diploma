@@ -20,6 +20,7 @@
 		E108421029D30E3F0079B37F /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108420F29D30E3F0079B37F /* extension.swift */; };
 		E108421429D3111B0079B37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108421329D3111B0079B37F /* Main.storyboard */; };
 		E108425329D5D4750079B37F /* overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108425229D5D4750079B37F /* overlay.swift */; };
+		E16A00D829F556BA0082D015 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A00D729F556BA0082D015 /* MainScreenViewController.swift */; };
 		E1778C6129E484E300DD44A0 /* poly.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E1778C6029E484E200DD44A0 /* poly.usdz */; };
 		E1778C6729E48E6100DD44A0 /* caffe_latte.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E1778C6629E48E6000DD44A0 /* caffe_latte.usdz */; };
 		EEA7C2AD6E31DC37F6F90C92 /* Pods_FirstAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A12ED20D1582C065A990C2 /* Pods_FirstAR.framework */; };
@@ -65,6 +66,7 @@
 		E108421329D3111B0079B37F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E108425229D5D4750079B37F /* overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overlay.swift; sourceTree = "<group>"; };
 		E1449CE339087AE2D54C2C31 /* Pods-FirstAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstAR.release.xcconfig"; path = "Target Support Files/Pods-FirstAR/Pods-FirstAR.release.xcconfig"; sourceTree = "<group>"; };
+		E16A00D729F556BA0082D015 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		E1778C6029E484E200DD44A0 /* poly.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = poly.usdz; sourceTree = "<group>"; };
 		E1778C6629E48E6000DD44A0 /* caffe_latte.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = caffe_latte.usdz; sourceTree = "<group>"; };
 		EA9F04C563A2B1B088D1AAD1 /* Pods-FirstARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstARTests.debug.xcconfig"; path = "Target Support Files/Pods-FirstARTests/Pods-FirstARTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				E1778C6029E484E200DD44A0 /* poly.usdz */,
 				E1778C6629E48E6000DD44A0 /* caffe_latte.usdz */,
 				E108421329D3111B0079B37F /* Main.storyboard */,
+				E16A00D729F556BA0082D015 /* MainScreenViewController.swift */,
 				E10841DE29D2ED940079B37F /* art.scnassets */,
 				E10841E029D2ED940079B37F /* ViewController.swift */,
 				E108425229D5D4750079B37F /* overlay.swift */,
@@ -419,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16A00D829F556BA0082D015 /* MainScreenViewController.swift in Sources */,
 				E108421029D30E3F0079B37F /* extension.swift in Sources */,
 				E10841E129D2ED940079B37F /* ViewController.swift in Sources */,
 				E108425329D5D4750079B37F /* overlay.swift in Sources */,
