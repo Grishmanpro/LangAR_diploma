@@ -10,3 +10,5 @@ import Foundation
 let  t = 0
 
 let r = 1
+
+let y = 0
