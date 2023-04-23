@@ -1,0 +1,6 @@
+framework module Pods_FirstAR {
+  umbrella header "Pods-FirstAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

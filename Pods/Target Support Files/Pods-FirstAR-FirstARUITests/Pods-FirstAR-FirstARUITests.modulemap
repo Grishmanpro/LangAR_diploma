@@ -1,0 +1,6 @@
+framework module Pods_FirstAR_FirstARUITests {
+  umbrella header "Pods-FirstAR-FirstARUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
