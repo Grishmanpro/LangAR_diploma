@@ -20,6 +20,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var z: Float = 0.0
     let synthesizer = AVSpeechSynthesizer()
     
+    let r = 90
+    
     let url = Bundle.main.url(forResource: "poly", withExtension: "usdz")!
     let cup = Bundle.main.url(forResource: "caffe_latte", withExtension: "usdz")!
     lazy var object1 = SCNNode()
