@@ -7,8 +7,7 @@
 
 import Foundation
 
-let  t = 0
-
-let r = 1
-
-let y = 0
+class DataBase {
+    var name: String?
+    var id: Int?
+}
